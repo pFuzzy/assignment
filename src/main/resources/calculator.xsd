@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.baeldung.com/springsoap/gen"
+           targetNamespace="http://www.baeldung.com/springsoap/gen" elementFormDefault="qualified">
+	<xs:element name="addNumbersRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="a" type="xs:decimal" />
+				<xs:element name="b" type="xs:decimal" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="addNumbersResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="result" type="xs:decimal" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="subtractNumbersRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="a" type="xs:decimal" />
+				<xs:element name="b" type="xs:decimal" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="subtractNumbersResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="result" type="xs:decimal" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="multiplyNumbersRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="a" type="xs:decimal" />
+				<xs:element name="b" type="xs:decimal" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="multiplyNumbersResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="result" type="xs:decimal" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="divideNumbersRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="a" type="xs:decimal" />
+				<xs:element name="b" type="xs:decimal" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>	
+	<xs:element name="divideNumbersResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="result" type="xs:decimal" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
