@@ -1,0 +1,32 @@
+1.Install Eclipse
+2.Create Spring boot project
+3.Import Spring boot project
+4.Create Github repository
+5.Connect Eclipse project to repository
+6.Create calculator service
+6.Setup SOAP in project
+	-plenty of google research
+	-add maven dependencies
+	-even more research
+	-add config and xsd
+	-add first endpoint
+7.Install Soap UI
+8.Test endpoints in Soap UI
+9.Add the rest of the endpoints
+10.Fix mistakes in calculator service
+11.Clone repository to double check functionality
+12.Finish up documentation
+
+Difficulties
+1. Working with Eclipse
+	- I have only worked with IntelliJ before and it was quite difficult to get used to a new IDE(interface, keybinds etc.)
+	- I usually prefer handling Git from IDE and Eclipse seemed a bit more sophisticated about adding remote repository,
+	  so managing Git from IDE took a while to figure out
+2. Working with SOAP
+	- Previously I had little to no knowledge and experience about this topic so setting up the project and creating           	  endpoints proved a great challenge and it is very much an "experience first, understand later" type of project
+
+3. What to push to repository
+	- Since I haven't worked with these kinds of projects I didn't know what usually is in a gitignore for this and how it 	  	  usually looks as a "completed" project
+	- I ended up not pushing generated code since building with maven, the jax2b plugin should create necessary classes
+
+
